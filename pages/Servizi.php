@@ -101,7 +101,7 @@
         </div>
     </nav>
     </header>
-    <main>
+    <main class="mb-4">
         <div class="jumb">
             <h1 class="text-center text-white p-5">Servizi</h1>
         </div>
