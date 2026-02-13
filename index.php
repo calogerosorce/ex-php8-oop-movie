@@ -64,7 +64,8 @@ require_once './db.php';
 
         img {
             width: 160px;
-            height: 100px;
+            height: 40px;
+            object-fit: cover;
         }
 
         .card {

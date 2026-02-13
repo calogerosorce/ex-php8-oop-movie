@@ -66,6 +66,8 @@
         .navbar {
             img {
                 width: 160px;
+                height: 40px;
+                object-fit: cover;
             }
         }
 
@@ -79,27 +81,27 @@
 </head>
 
 <body>
-    <header></header>
-    <nav class="navbar bg-dark">
-        <div class="container-fluid justify-content-around">
-            <a class="navbar-brand" href="../index.php">
-                <img src="../img/dff4c5d5-360c-4893-abb4-b13899c3f506.png" alt="Logo" class="d-inline-block align-text-top">
-            </a>
-            <div class="navbar" id="navbarNav">
-                <ul class="navbar-nav d-flex flex-row gap-3">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./ChiSiamo.php">Chi Siamo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./Servizi.php">Servizi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Contatti.php">Contatti</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar bg-dark">
+            <div class="container-fluid justify-content-around">
+                <a class="navbar-brand" href="../index.php">
+                    <img src="../img/dff4c5d5-360c-4893-abb4-b13899c3f506.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <div class="navbar" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-row gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./ChiSiamo.php">Chi Siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Servizi.php">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contatti.php">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <main class="mb-4">
         <div class="jumb">
